@@ -9,7 +9,7 @@ export const DarkModelToggle = () => {
   const [mounted, setMounted] = useState(false)
   const currentTheme = theme === 'system' ? systemTheme : theme
   return (
-    <div>
+    <div className='pr-5 dark:text-pink-50'>
       <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         className={
           theme === 'light'
@@ -17,19 +17,6 @@ export const DarkModelToggle = () => {
             : 'text-gray-200 text-3xl select-none transition-all'}>
         {theme === 'light' ? <MdDarkMode /> : <MdLightMode />}
       </button>
-
-      {/* <div>
-        {
-          currentTheme === 'dar'
-            ? <MdLightMode
-              onClick={() => setTheme('dark')}
-              className="text-xl cursor-pointer hover:text-amber-500" />
-            : <MdDarkMode
-              onClick={() => setTheme('light')}
-              className="text-xl cursor-pointer hover:text-amber-500" />
-        }
-      </div> */}
-
     </div >
   )
 }

@@ -13,7 +13,7 @@ const Header = () => {
         <MenuItem title="Contact" address="/contact" Icon={AiFillContacts} />
       </div>
       <div className="flex gap-1 items-center">
-        <DarkModelToggle className="flex items-center gap-4" />
+        <DarkModelToggle className="flex items-center" />
         <Link href="/">
           <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">M.Movies</span>
         </Link>
