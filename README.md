@@ -1,4 +1,4 @@
-# IMDb Clone
+# Mad Movie Reviews — IMDb Clone
 
 This project is a simplified front-end clone of IMDb, built using React, Next.js, and styled with Tailwind CSS. It is part of the "Next.js Projects - 4 NextJS 14 projects (Instagram, Google.)" Udemy course. This project diverges from the Udemy course in terms of styling and may arbitrarily include additional libraries like babel, shadcn, etc.
 
