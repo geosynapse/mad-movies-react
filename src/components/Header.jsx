@@ -2,6 +2,7 @@ import MenuItem from "./MenuItem"
 import { AiFillHome, AiFillContacts } from "react-icons/ai"
 import { BsFillInfo, BsFillInfoCircleFill } from "react-icons/bs"
 import Link from 'next/link'
+import { DarkModelToggle } from "./DarkModelToggle"
 
 const Header = () => {
   return (
@@ -11,7 +12,8 @@ const Header = () => {
         <MenuItem title="About" address="/about" Icon={BsFillInfoCircleFill} />
         <MenuItem title="Contact" address="/contact" Icon={AiFillContacts} />
       </div>
-      <div className="flex gap-1 items-center">        
+      <div className="flex gap-1 items-center">
+        <DarkModelToggle className="flex items-center gap-4" />
         <Link href="/">
           <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">M.Movies</span>
         </Link>
