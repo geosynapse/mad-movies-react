@@ -23,11 +23,11 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/imdb-clone.git
+   git clone https://github.com/yourusername/mad-movies-react.git
    ```
 2. Install the dependencies:
    ```bash
-   cd imdb-clone
+   cd mad-movies-react
    npm install
    ```
 3. Start the development server:
