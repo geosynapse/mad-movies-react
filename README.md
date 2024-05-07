@@ -23,7 +23,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mad-movies-react.git
+   git clone https://github.com/cognitivefeedback/mad-movies-react.git
    ```
 2. Install the dependencies:
    ```bash
