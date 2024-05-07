@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div className="flex gap-1 items-center">        
         <Link href="/">
-          <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">IMDb</span>
+          <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">M.Movies</span>
         </Link>
         <span className="text-xl hidden sm:inline">Clone</span>
       </div>

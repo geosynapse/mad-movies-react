@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IMDb Clone
 
-## Getting Started
+This project is a simplified front-end clone of IMDb, built using React, Next.js, and styled with Tailwind CSS. It is part of the "Next.js Projects - 4 NextJS 14 projects (Instagram, Google.)" Udemy course. This project diverges from the Udemy course in terms of styling and may arbitrarily include additional libraries like babel, shadcn, etc.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The IMDb clone provides basic features similar to the real IMDb website such as:
+- Listing of movies and TV shows
+- Search functionality for movies and TV shows
+- Detailed pages for each movie and show with ratings, summaries, and cast information
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **React**: For building the user interface
+- **Next.js**: For server-side rendering and routing
+- **Tailwind CSS**: For styling components
+- **React App Router** 
+- **API**: Utilizing a movie database API for real movie data
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Setup
 
-## Learn More
+To run this project locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/imdb-clone.git
+   ```
+2. Install the dependencies:
+   ```bash
+   cd imdb-clone
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Home Page**: Displays popular movies and TV shows
+- **Search**: Users can search for movies and TV shows
+- **Movie/Show Details**: Clicking on a movie or show opens a page with detailed information
 
-## Deploy on Vercel
+## Learning Objectives
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Building applications with React and Next.js
+- Managing state and side effects in a React application
+- Routing with Next.js
+- Integration with external APIs
+- Tailwind and other styling frameworks (maybe Mantine or Shadcn)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for detais.
+
+Feel free to fork this project and tailor it to your learning needs. Happy coding!
